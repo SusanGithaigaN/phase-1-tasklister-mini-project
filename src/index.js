@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   li.appendChild(btn)
   console.log(li)
   document.querySelector('#list').appendChild(li)
-}
+  }
 // Handle the delete event.
 function handDelete(e){
   e.target.parentNode.remove()
