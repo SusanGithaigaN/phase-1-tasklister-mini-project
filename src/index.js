@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //  Set the target for the event.
      buildToDo(document.getElementById('new-task-description').value)
      form.reset()
+        
    })
  })
  function buildToDo(todo){
